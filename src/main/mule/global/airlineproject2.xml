@@ -8,5 +8,6 @@ http://www.mulesoft.org/schema/mule/http http://www.mulesoft.org/schema/mule/htt
 	<flow name="airlineproject2Flow" doc:id="63c70b77-3e5a-4a8b-beba-4549c2cc5a57" >
 		<http:listener doc:name="Listener" doc:id="98d474ec-cdc8-49bf-9b4a-7261bd64b841" config-ref="HTTP_Listener_config" path="${http.listner.path}"/>
 		<logger level="INFO" doc:name="Logger" doc:id="a411dbfe-5f51-4099-b470-5474c3fb5545" />
+		<logger level="INFO" doc:name="Logger" doc:id="3d6b85ad-09e5-465a-911b-b8279154cf61" />
 	</flow>
 </mule>
